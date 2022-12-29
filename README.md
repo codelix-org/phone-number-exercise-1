@@ -15,6 +15,11 @@ cd phone-number-exercise-1
 
 # Install dependencies
 bundle 
+
+# create branch (change YOURNAMEHERE)
+git checkout -b attempt-YOURNAMEHERE
+
+# See the failing specs
 bundle exec rspec --format documentation
 ```
 
@@ -23,6 +28,8 @@ bundle exec rspec --format documentation
 Look at the specs in `spec/formatter/phone_number_spec.rb`. 
 
 Your task is to make those specs pass by writing the code in `lib/formatter/phone_number.rb`
+
+When you've completed the task, push your branch to github and create a PR for the branch. 
 
 ## Marking this exercise
 
