@@ -16,7 +16,7 @@ cd phone-number-exercise-1
 # Install dependencies
 bundle 
 
-# create branch (change YOURNAMEHERE)
+# create branch
 git checkout -b attempt-YOURNAMEHERE
 
 # See the failing specs
@@ -24,6 +24,9 @@ bundle exec rspec --format documentation
 ```
 
 ## Exercise instructions
+
+In this exercise you'll be adding the happy path code (i.e. we'll be giving it valid numbers) for 
+formatting a UK phone number to the expected format that we'll be storing numbers as.
 
 Look at the specs in `spec/formatter/phone_number_spec.rb`. 
 
