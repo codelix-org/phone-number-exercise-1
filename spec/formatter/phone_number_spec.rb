@@ -1,4 +1,5 @@
 require_relative '../../lib/formatter/phone_number'
+require 'pry'
 
 RSpec.describe Formatter::PhoneNumber do
   describe '#call' do
