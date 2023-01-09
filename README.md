@@ -4,6 +4,11 @@
 
 Firstly, make sure that you've created an account on Codelix (using github Oauth) by going to https://www.codelix.co.uk/users/auth/github
 
+You'll also need to be added to [this github team](https://github.com/orgs/codelix-org/teams/access-to-codelix) 
+(if you can't access this page then you won't be able to push to the repos). 
+You only need to be added once, please 
+message @Robfaldo (or slack or robertfaldo@gmail.com) to request this. 
+
 ```
 # Create a folder for the trail 
 mkdir phone-number-formatter-trail
